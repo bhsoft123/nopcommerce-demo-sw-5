@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="nopcommerce-demo-sw-5(failed)">
+    <classes>
+      <class name="com.nopcommerce.demo.testsuite.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="inIt"/>
+          <include name="setUp"/>
+          <include name="verifyUserShouldNavigateToLoginPage"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginPageTest -->
+    </classes>
+  </test> <!-- nopcommerce-demo-sw-5(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
